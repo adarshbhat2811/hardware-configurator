@@ -1,0 +1,8 @@
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\repository\BaseModuleRepository.java
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\model\BaseModule.java
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\repository\HardwareModuleRepository.java
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\model\HardwareModule.java
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\resolvers\HardwareModuleResolver.java
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\resolvers\ModuleMutation.java
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\resolvers\ModuleQuery.java
+C:\Users\Adarsh\eclipse-workspace\hardware-configurator\src\main\java\org\pilz\pnozmulti\hardware_configurator\spring\Main.java

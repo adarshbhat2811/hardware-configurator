@@ -1,0 +1,8 @@
+org\pilz\pnozmulti\hardware_configurator\model\BaseModule.class
+org\pilz\pnozmulti\hardware_configurator\spring\Main.class
+org\pilz\pnozmulti\hardware_configurator\model\HardwareModule.class
+org\pilz\pnozmulti\hardware_configurator\repository\BaseModuleRepository.class
+org\pilz\pnozmulti\hardware_configurator\resolvers\ModuleQuery.class
+org\pilz\pnozmulti\hardware_configurator\resolvers\ModuleMutation.class
+org\pilz\pnozmulti\hardware_configurator\repository\HardwareModuleRepository.class
+org\pilz\pnozmulti\hardware_configurator\resolvers\HardwareModuleResolver.class

@@ -1,0 +1,20 @@
+type BaseModule{
+  id: ID!
+  name: String!
+  type: String
+}
+
+
+type BaseModuleQueries{
+  findAllBaseModules: [BaseModule]
+  filterBaseModuleByType(type : String!): [BaseModules]
+}
+
+type BaseModuleMutations{
+  createBaseModule(name : String!, type : String!): BaseModule!
+}
+
+schema {
+   query: BaseModuleQueries
+   mutation: BaseModuleMutations
+}

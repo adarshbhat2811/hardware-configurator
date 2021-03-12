@@ -1,0 +1,20 @@
+type HardwareModule{
+  id: ID!
+  moduleName: String!
+  inputs: Int!
+  outputs: Int!
+  baseModule: BaseModule
+}
+extend type HardwareModuleQueries{
+  findAllHardwareModules: [HardwareModule]
+  findHardwareModuleByBaseModule(baseModule: ID!): [HardwareModule]
+}
+extend type HardwareModuleMutations{
+  createHardwareModule(moduleName: String!, inputs: Int!, outputs: Int!, baseModule: ID!): HardwareModule!
+  updateHardwareModule(id: ID!, moduleName: String!, inputs: Int!, outputs: Int!, baseModule: ID!): HardwareModule!
+  deleteHardwareModule(id: ID!): Boolean
+}
+schema {
+   query: HardwareModuleQueries
+   mutation: HardwareModuleMutations
+}
